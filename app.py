@@ -16,7 +16,7 @@ APP_NAME = "CyberLawGPT"
 PDF_URL = "https://drive.google.com/file/d/1iseg7L2rFVcd3W8IKhIRz3alNv9Yf_vX/view?usp=drive_link"
 PDF_PATH = Path("data/peca_source.pdf")
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 
 st.set_page_config(
     page_title=APP_NAME,
